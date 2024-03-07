@@ -167,3 +167,59 @@ Challenge Completion:
 Implement the provided JavaScript functions in your project's JavaScript file.
 Ensure that the provided HTML elements have the required IDs.
 Optionally, define the CSS class .highlight in your project's CSS file for visual highlighting.
+
+# ----------------------------------------------------------------
+
+**Challenge 8:** Party Mode Button
+
+Objective: In this challenge, you will implement a "Party Mode" button using JavaScript event listeners and DOM manipulation.
+
+Instructions:
+
+Create a Party Mode Button:
+
+Instructions:
+
+Create a Party Mode Button:
+
+**Write a JavaScript function called partyModeButton(buttonId).**
+This function should add a click event listener to the HTML button with the given ID.
+When the button is clicked, it should change the background color of the page randomly, creating a fun and vibrant party atmosphere.
+
+# ------------------------------------------------------------------
+
+**Challenge 9: Higher Order Functions and Function Passing**
+
+Objective: Demonstrate higher-order functions and function passing in JavaScript.
+
+Instructions:
+
+1. **Create a Higher Order Function:**
+
+   Write a JavaScript function `higherOrderFunction(callbackFunction)` to invoke another function provided as `callbackFunction`.
+
+2. **Implement Function Passing:**
+
+   Write two functions:
+   
+   - **`sayHello(name)`**: Log a greeting message to the **console** with the given name.
+   
+   - **`sayGoodbye(name)`**: Log a farewell message to the **console** with the given name.
+
+   Call `higherOrderFunction` twice, passing `sayHello` and `sayGoodbye` as arguments.
+
+This challenge showcases:
+
+- Higher-order functions understanding.
+- Functions as first-class citizens in JavaScript.
+- Function passing as arguments.
+
+To complete:
+
+1. Define `higherOrderFunction` to invoke the provided callback function.
+2. Implement `sayHello` and `sayGoodbye` functions.
+3. Call `higherOrderFunction` twice with appropriate functions.
+4. Ensure correct function invocation with suitable arguments.
+5. Test to confirm proper callback function execution.
+
+**To check the output in the Chrome console, open the Developer Tools (`Ctrl + Shift + I` or `Cmd + Option + I`) and navigate to the "Console" tab.**

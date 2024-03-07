@@ -1,0 +1,24 @@
+/* Center the container horizontally and vertically */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take up the full height of the viewport */
+}
+
+/* Style the button */
+#partyModeButton {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #15080d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+#partyModeButton:hover {
+    background-color: #d81b60;
+}
