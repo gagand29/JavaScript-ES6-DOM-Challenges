@@ -1,6 +1,6 @@
 # JavaScript-ES6-DOM-Challenges
 
-This repository contains a collection of JavaScript coding challenges focusing on ES6 features and DOM manipulation. Each challenge is accompanied by its solution, organized neatly into folders for easy reference.
+This repository contains a collection of `JavaScript coding challenges focusing on ES6 features and DOM manipulation`. Each `challenge` is accompanied by its `solution`, organized neatly into folders for easy reference.
 
 **JavaScript Variables Exercise**
 Welcome to the JavaScript Variables Exercise! Before we dive into the challenges, let's have a quick overview of JavaScript and its fundamental concepts.
@@ -20,7 +20,7 @@ Now that we have a basic understanding of JavaScript, let's jump into our first 
 
 Certainly! Here's a revised version of the challenge question to provide a different perspective:
 
-Challenge 1: Variable Swapping
+`Challenge 1:` Variable Swapping
 Consider the following scenario:
 
 You have two variables, a and b, each initialized with a string value.
@@ -40,7 +40,7 @@ String Concatenation: Used to construct the output message by combining strings 
 **Challenge 2 - Time Left Calculation**
 Imagine you're planning a long-term project that will take several years to complete. You want to know how much time you have left to work on it if you live until 80 years old.
 
-Write a JavaScript function that takes your current age as input and calculates how many days, weeks, and months you have left until you turn 80 years old. The function should output a message in the following format:
+Write a JavaScript function that `takes your current age as input and calculates how many days, weeks, and months you have left until you turn 80 years old.` The function should output a message in the following format:
 
 You have x days, y weeks, and z months left.
 
@@ -52,15 +52,12 @@ You have 14600 days, 2080 weeks, and 480 months left.
 
 **----------------------------------------------------------------**
 
-Functions in JavaScript: Utilized to encapsulate BMI calculation logic, improving code organization and reusability.
-Mathematical Operations: Involves arithmetic operations like division and exponentiation to compute the BMI.
-
 **Challenge 3: Discount Calculator**
-Create a JavaScript function that calculates the final price after applying a discount to an original price.
+Create a JavaScript function that calculates the `final price after applying a discount to an original price.`
 
 Your task is to write a function that takes the original price and discount percentage as inputs and returns the discounted price. The output should be rounded to the nearest whole number.
 
-For example, if the original price is $100 and the discount percentage is 20%, the function should return $80.
+`For example,` if the original price is $100 and the discount percentage is 20%, the function should return $80.
 
 Write the function without using any alerts, prompts, or console logs. Your code should only contain the function, and the result has to be returned by the function. You do not need to call the function.
 
@@ -72,7 +69,7 @@ Discounted Price: $80
 **--------------------------------------------------------**
 **Challenge 4: Leap Year Checker**
 
-Write a program that determines whether a given year is a leap year. A normal year has 365 days, while leap years have 366, with an extra day in February. The concept of leap years is fascinating, and you can learn more about it in this video.
+Write a program that determines whether a given year is a `leap year`. A normal year has 365 days, while leap years have 366, with an extra day in February. The concept of leap years is fascinating, and you can learn more about it in this video.
 
 To determine if a particular year is a leap year:
 
@@ -100,12 +97,12 @@ However, the year 2100 is not a leap year because:
 **----------------------------------------------------------------**
 **Challenge 5: Activity Coordinator**
 
-You are tasked with writing a function that will randomly select a person from a list of names to coordinate and organize an activity for the group. The selected person will be responsible for planning and executing the activity for everyone.
+You are tasked with writing a function that will `randomly select a person from a list of names to coordinate and organize an activity for the group.` The selected person will be responsible for planning and executing the activity for everyone.
 
 Instructions:
 Write a function that selects a random name from the provided list of names and returns the name of the person selected as the activity coordinator. The function should not display the output using `alert`, `prompt`, or `console.log`. Instead, the output should be returned directly from the function.
 
-Important Note:
+`Important Note:`
 The output of your function should match the example output exactly, including capitalization and punctuation.
 
 **Example Input**
@@ -115,16 +112,16 @@ The output of your function should match the example output exactly, including c
 
 **Challenge 6: Fibonacci Sequence Generator**
 
-Fibonacci was an Italian mathematician who introduced the Fibonacci sequence:
+`Fibonacci` was an Italian mathematician who introduced the Fibonacci sequence:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
 
 In this challenge, you're tasked with creating a function that generates the Fibonacci sequence up to a given number of items.
 
 Instructions:
-Write a function called fibonacciGenerator(n) where n is the number of items in the sequence. The function should return an array containing the Fibonacci sequence.
+Write a function called `fibonacciGenerator(n)` where n is the number of items in the sequence. The function should return an array containing the Fibonacci sequence.
 
-Important Note:
+`Important Note:`
 The first two numbers in the sequence must be 0 and 1.
 
 Example Usage:
@@ -137,23 +134,23 @@ fibonacciGenerator(3); // Output: [0, 1, 1]
 
 **Challenge 7: DOM Element Manipulation**
 
-Objective: The objective of this challenge is to practice manipulating HTML elements using JavaScript and understanding the basics of the Document Object Model (DOM).
+`Objective:` The objective of this challenge is to practice manipulating HTML elements using JavaScript and understanding the basics of the Document Object Model (DOM).
 
 Instructions:
 
 Toggle Element Visibility:
 
-**Write a JavaScript function called toggleElementVisibility(elementId).**
+**Write a JavaScript function called `toggleElementVisibility(elementId).`**
 This function should toggle the visibility of an HTML element with the given ID.
 If the element is currently visible, it should be hidden, and vice versa.
 Highlight Element:
 
-**Write a JavaScript function called highlightElement(elementId).**
+**Write a JavaScript function called `highlightElement(elementId).`**
 This function should add a CSS class to the HTML element with the given ID, making it stand out visually.
 The added CSS class should be defined in your CSS file (e.g., highlight).
 Update Element Content:
 
-**Write a JavaScript function called updateElementContent(elementId, newContent).**
+**Write a JavaScript function called `updateElementContent(elementId, newContent).`**
 This function should update the text content of the HTML element with the given ID to the new content provided.
 Example Usage:
 
@@ -170,7 +167,7 @@ Optionally, define the CSS class .highlight in your project's CSS file for visua
 
 # ----------------------------------------------------------------
 
-**Challenge 8:** Party Mode Button
+**Challenge 8:** `Party Mode Button`
 
 Objective: In this challenge, you will implement a "Party Mode" button using JavaScript event listeners and DOM manipulation.
 
@@ -182,9 +179,11 @@ Instructions:
 
 Create a Party Mode Button:
 
-**Write a JavaScript function called partyModeButton(buttonId).**
+**Write a JavaScript function called** `partyModeButton(buttonId)`.
 This function should add a click event listener to the HTML button with the given ID.
-When the button is clicked, it should change the background color of the page randomly, creating a fun and vibrant party atmosphere.
+When the` button is clicked, it should change the background color of the page randomly, creating a fun and vibrant party atmosphere.`
+
+
 
 # ------------------------------------------------------------------
 
